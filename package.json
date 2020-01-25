@@ -4,7 +4,8 @@
   "description": "In this challenge, you design and build a Data Model and a RESTful API that stores data into a Relational Database.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/Yurimurda/node-db-challenge#readme",
   "dependencies": {
     "knex": "^0.20.8",
+    "nodemon": "^2.0.2",
     "sqlite3": "^4.1.1"
   }
 }
